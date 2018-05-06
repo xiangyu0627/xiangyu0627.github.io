@@ -23,9 +23,10 @@
   margin: 0 !important;
 }
 
-.navbar-toggler {
-  border: 0px;
-  color: #fff;
+.navbar-dark .navbar-toggler {
+  border: 0px !important;
+  color: #fff !important;
+  outline: none;
 }
 
 .primary-color {
