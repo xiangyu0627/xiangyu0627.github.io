@@ -1,0 +1,35 @@
+<div class="row margin-top-20 justify-content-center">
+  <div class="col-12 col-md-10">
+    <div class="about-title">About Us</div>
+  </div>
+  <div class="col-12 col-md-10 about-wrapper">
+    <div class="about-content">
+      This is an example of a page, where you might tell your visitors the story behind your restaurant.
+      How you got started, what sets you apart, why your customers love dining with you, etc.
+    </div>
+    <div class="about-content">
+      The rest of this text is placeholder copy… Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at diam leo. 
+      Maecenas non nisl massa. Nam quis nibh auctor magna molestie malesuada et vitae purus. 
+      Sed mattis neque quis orci imperdiet lobortis. Aenean porttitor pretium nibh vitae fermentum.
+    </div>
+    <div class="about-content">
+      In adipiscing orci orci, sagittis fringilla eros. Duis nec enim nec ligula vulputate suscipit. Maecenas risus quam, 
+      rhoncus sed consequat a, volutpat id purus. Suspendisse ut dolor quis justo dapibus vulputate. Fusce dictum eleifend 
+      nulla ac venenatis. Sed vehicula augue nec neque egestas tristique. Sed ultricies dui at urna luctus tincidunt.
+    </div>
+  </div>
+  <div class="col-12 col-md-10">
+    <div class="about-title">Contact Us</div>
+  </div>
+  <div class="col-12 col-md-10 about-wrapper">
+    <div class="about-content">
+      <strong>Phone:</strong> (555) 123-4567
+    </div>
+    <div class="about-content">
+      <strong>Location:</strong> 9938 Holmes Rd, Kansas City, MO 64131
+    </div>
+  </div>
+  <div class="col-12 col-md-10 about-wrapper">
+    <iframe id="JotFormIFrame-81408428084155" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/81408428084155" frameborder="0" style="width: 1px; min-width: 100%; height:539px; border:none;" scrolling="no" > </iframe> <script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-81408428084155"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) { return; } switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; case "loadScript": var src = args[1]; if (args.length > 3) { src = args[1] + ':' + args[2]; } var script = document.createElement('script'); script.src = src; script.type = 'text/javascript'; document.body.appendChild(script); break; case "exitFullscreen": if (window.document.exitFullscreen) window.document.exitFullscreen(); else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen(); else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen(); else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen(); else if (window.document.msExitFullscreen) window.document.msExitFullscreen(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
+  </div>
+</div>

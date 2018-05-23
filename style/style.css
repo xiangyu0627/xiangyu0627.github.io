@@ -138,3 +138,66 @@
 #home .map-responsive {
   padding-bottom: 45%;
 }
+
+.specials-wrapper {
+  border: #000 dashed 4px;
+  margin-top: 20px;
+}
+
+.specials-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.specials-content-title {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  color: Red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.specials-content-discount {
+  color: #000;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.specials-content-code {
+  color: Red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.specials-content-description {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.specials-content-disclaimer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.about-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.about-wrapper {
+  margin: 20px;
+}
+
+.about-content {
+  margin-top: 10px;
+}
